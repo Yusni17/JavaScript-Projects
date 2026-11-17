@@ -8,3 +8,8 @@ function buildSentence() {
     // Use document.getElementById to display the result in the paragraph with id "output"
     document.getElementById("output").innerHTML = sentence;
 }
+
+var multiply = function(a,b) {
+    return a * b;
+    
+}
