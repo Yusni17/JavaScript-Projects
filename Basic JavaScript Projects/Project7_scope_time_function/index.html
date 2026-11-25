@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 7: Scope</title>
+</head>
+<body>
+  <h1>Scope</h1>
+
+  <!-- Paragraph where the global and local results are displayed -->
+  <p id="ScopeResult"></p>
+
+  <!-- Paragraph with id "Greeting"; clicking it calls the time function -->
+  <p id="Greeting" onclick="timeFunction()">Click here to get a greeting</p>
+
+  <!-- Input and button for my own if statement -->
+  <input id="Score" type="number" placeholder="Enter a test score">
+  <button onclick="scoreFunction()">Check score</button>
+  <p id="ScoreResult"></p>
+
+  <!-- Paragraph with instructions for the user -->
+  <p>Enter your age and click the button to see if you can get a discount ticket (under 18).</p>
+
+  <!-- Input with an id -->
+  <input id="TicketAge" type="number" placeholder="Enter your age">
+
+  <!-- Button that calls the function -->
+  <button onclick="ticketFunction()">Check ticket</button>
+
+  <!-- Paragraph with an id where the result will be displayed -->
+  <p id="TicketResult"></p>
+
+  <!-- Paragraph where the time-of-day message is displayed -->
+  <p id="Time_of_day"></p>
+
+  <!-- Button that calls the else if function -->
+  <button onclick="Time_function()">Click here to get the time.</button>
+
+  <!-- Even or odd number -->
+  <p>Pick a number and click Submit.</p>
+  <input type="number" value="0" id="userInput">
+  <button type="button" onclick="get_Reply()">Submit</button>
+  <p id="feedback"></p>
+
+  <!-- Link the main.js file using the script element and src attribute -->
+  <script src="JS/main.js"></script>
+</body>
+</html>
