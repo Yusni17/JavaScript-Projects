@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 6: Ternary Operators and Constructors</title>
+</head>
+<body>
+  <h1>Ternary Operators and Constructors</h1>
+
+  <!-- Input where the user types their age -->
+  <input id="Age" type="number" placeholder="Enter your age">
+
+  <!-- Button that calls the ternary operator function -->
+  <button onclick="voteFunction()">Can I vote?</button>
+
+  <!-- Paragraph where the ternary result is displayed -->
+  <p id="Vote"></p>
+
+  <!-- Button that calls the constructor function -->
+  <button onclick="showCar()">Show my car</button>
+
+  <!-- Paragraph where the constructor result is displayed -->
+  <p id="Car"></p>
+
+  <!-- Paragraph where the Vehicle result is displayed -->
+  <p id="Keyword_Example">Click the button to see who drives what.</p>
+
+  <!-- Button that calls the Vehicle function -->
+  <button type="button" onclick="myFunction()">Click me</button>
+
+  <!-- Getting input from the user and calling Ride_Function() -->
+  <p>Riders must be at least 52 centimeters tall to ride.</p>
+  <input id="Height" value="0">
+  <button onclick="Ride_Function()">Check height</button>
+  <p id="Ride"></p>
+
+  <!-- Paragraph with id "Nested"; clicking it calls the function that contains a nested function -->
+  <p id="Nested" onclick="countFunction()">Click here to count with a nested function</p>
+
+  <!-- Calling the nested function add_Strings() -->
+  <p id="Nested_Function" onclick="add_Strings()">Click Me</p>
+
+  <!-- Link the main.js file using the script element and src attribute -->
+  <script src="JS/main.js"></script>
+</body>
+</html>
